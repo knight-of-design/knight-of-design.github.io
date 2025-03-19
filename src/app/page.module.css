@@ -33,6 +33,7 @@
   justify-items: center;
   gap: 16px;
   align-items: center;
+  text-align: center;
 }
 
 .main code {
