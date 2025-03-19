@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <header>
-        <h1>James Knight's</h1>
+        <h1>James Knight&apos;s</h1>
         <Image
           className={styles.logo}
           src="/next.svg"
