@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        steps:
+    
       - uses: pnpm/action-setup@v4
         with:
           version: 10
@@ -60,7 +60,7 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-     
+      - name: Build with Next.js
         run: pnpm build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
