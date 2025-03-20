@@ -18,7 +18,10 @@ export default function Home() {
         
             <code>Under development...</code>
           
-
+            <section>
+              <a href="https://buymeacoffee.com/knight.of.design" target="_blank" rel="noopener">
+              <i>&#x2615;</i>Treat me?<i>&#x1F369;</i>
+              </a></section>
         
       </main>
       <footer className={styles.footer}>
